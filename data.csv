@@ -1,0 +1,4 @@
+review,sentiment
+"The movie was amazing!","positive"
+"It was an average film.","neutral"
+"I regret watching this movie.","negative"

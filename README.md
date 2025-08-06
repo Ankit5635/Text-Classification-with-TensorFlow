@@ -4,7 +4,7 @@
 
 This project builds and trains a **Bidirectional LSTM** model to classify IMDB movie reviews into **three sentiment classes**: **Negative**, **Neutral**, and **Positive**. The dataset is loaded from TensorFlow Datasets, and the model is implemented using TensorFlow and Keras.
 
-## 📌 Project Highlights
+## 1] Project Highlights
 
 - ✅ Uses the IMDB Reviews dataset from TensorFlow Datasets.
 - ✅ Converts binary sentiment labels (positive/negative) into 3 classes by randomly assigning a "Neutral" label to 30% of the training set.
@@ -14,7 +14,7 @@ This project builds and trains a **Bidirectional LSTM** model to classify IMDB m
 
 ---
 
-## 🔧 Technologies Used
+## 2] Technologies Used
 
 - Python
 - TensorFlow 2.x
@@ -24,7 +24,7 @@ This project builds and trains a **Bidirectional LSTM** model to classify IMDB m
 
 ---
 
-## 📂 Dataset
+## 3] Dataset
 
 - **Source:** `imdb_reviews` from TensorFlow Datasets
 - **Original Format:** Binary classification (positive/negative)
@@ -32,7 +32,7 @@ This project builds and trains a **Bidirectional LSTM** model to classify IMDB m
 
 ---
 
-## 🧠 Model Architecture
+## 4] Model Architecture
 
 ```text
 Embedding Layer (vocab_size=10000, output_dim=64)
